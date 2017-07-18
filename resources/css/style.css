@@ -106,6 +106,8 @@ ul.nav.navbar-nav {
 
 .featured {
   padding: 0 50px;
+  display: flex;
+  flex-flow: column wrap;
 }
 
 .featured h2 {
@@ -113,6 +115,10 @@ ul.nav.navbar-nav {
   font-weight: bold;
   color: #399bd1;
   padding-bottom: 20px;
+}
+
+.featured h3 {
+	font-size: 1.3rem;
 }
 
 .featured h4 {
@@ -124,4 +130,72 @@ ul.nav.navbar-nav {
 .featured li {
 	line-height: 1.4;
 	color: rgba(0,0,0,0.7);
+}
+
+/* Projects Section */
+
+.projects {
+	padding: 0 50px 5.85rem 50px;
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.projects h2 {
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #399bd1;
+  padding-bottom: 20px;
+}
+
+.projects h3 {
+	font-size: 1.3rem;
+}
+
+/* Having Trouble? (Supporting) Section */
+
+.supporting {
+	display: flex;
+	flex-flow: column nowrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+	text-align: center;
+	padding: 5.2rem 0;
+	background-color: #f3f3f3;
+}
+
+.supporting .text-content {
+  display: flex;
+  flex-flow: column nowrap;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  width: 42rem;
+}
+
+.supporting strong {
+	font-size: 2.5rem;
+	font-weight: bold;
+	padding-bottom: 1.4rem;
+}
+
+.supporting .button {
+	margin-top: 2.8rem;
+	padding: 1.3rem;
+	width: 11.4rem;
+	background-color: #399bd1;
+	box-shadow: 0 0 3px rgba(0,0,0,0.5);
+}
+
+.supporting .button a {
+	color: white;
+	text-decoration: none;
+}
+
+.supporting .button:hover {
+	box-shadow: 0 0 12px rgba(0,0,0,0.9);
+}
+
+.supporting .button:active {
+	box-shadow: 0 0 0 rgba(0,0,0,0.5);
 }
