@@ -9,6 +9,14 @@ html {
   font-size: 14px;
 }
 
+img {
+  width: 100%;
+}
+
+.image-container img {
+  opacity: 0.7;
+}
+
 /* Navbar Styling */
 
 .navbar-default .navbar-nav>li>a {
@@ -71,7 +79,10 @@ ul.nav.navbar-nav {
   text-shadow: 1px 1px 1px black;
 }
 
+  /* Jumbotron Button */
+
 .jumbotron .button {
+	margin-top: 2.8rem;
 	padding: 1.3rem;
 	width: 11.4rem;
 	background-color: #399bd1;
@@ -89,4 +100,28 @@ ul.nav.navbar-nav {
 .jumbotron .button a {
 	color: white;
 	text-decoration: none;
+}
+
+/* Featured Section */
+
+.featured {
+  padding: 0 50px;
+}
+
+.featured h2 {
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #399bd1;
+  padding-bottom: 20px;
+}
+
+.featured h4 {
+	font-size: 1.3rem;
+	font-weight: bold;
+	color: #399bd1;
+}
+
+.featured li {
+	line-height: 1.4;
+	color: rgba(0,0,0,0.7);
 }
