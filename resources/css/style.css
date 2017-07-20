@@ -13,8 +13,19 @@ img {
   width: 100%;
 }
 
+.image-container {
+  overflow: hidden;
+}
+
 .image-container img {
   opacity: 0.7;
+  transform: opacity 0.5, transform 0.5;
+}
+
+.image-container img:hover {
+  opacity: 1;
+  transform: scale(1.3);
+  cursor: pointer;
 }
 
 /* Navbar Styling */
@@ -59,6 +70,24 @@ ul.nav.navbar-nav {
 
 .jumbotron-bike {
 	background-image: url("../media/jumbotron-bike.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.jumbotron-beer {
+	background-image: url("../media/jumbotron-beer.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.jumbotron-flowers {
+	background-image: url("../media/jumbotron-flowers.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.jumbotron-duffel {
+	background-image: url("../media/jumbotron-duffel.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 }
